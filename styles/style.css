@@ -97,6 +97,7 @@ body{
     grid-template-columns: 300px repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 2%;
+    margin-bottom: 130px;
 }
 
 .blog_continer{
@@ -181,4 +182,47 @@ body{
 /* blog section style :start */
 /* <!-- main continers end --> */
 
+/* footer section style start */
+footer{
+    background-color: #161616;
+    width: 100%;
+    text-align: center;    
+}
 
+footer .footer_detail_main{
+    margin: auto;
+    width: 80%;
+}
+
+footer .footer_detail_main h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.623);
+    padding: 7% 0 3% 0;
+    margin-bottom: 20px;
+
+}
+
+footer .footer_detail_main ul{
+    display: flex;
+    justify-content: center;
+}
+footer .footer_detail_main ul li{
+    list-style: none;
+    width: 200px;
+    text-align: center;
+}
+.footer_detail_main ul li a{
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    text-align: center;
+}
+footer .footer_detail_main a i{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 5px;
+}
