@@ -12,15 +12,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.button{
-    text-decoration: none;
-    font-size: 20px;
-    padding: 15px 25px;
-    background-color: red;
-    border-radius: 10px;
-
-}
-
 /* main continers style start */
 
 .main_continers{
@@ -62,8 +53,21 @@ body{
 }
 
 .left_continer .watch_btn{
+    color: #161616;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+.left_continer .watch_btn:hover{
     color: white;
-    
+    padding: 15px 25px;
+    background-image: linear-gradient(90deg, #ff4939,#ffbf48);
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .left_continer a i{
@@ -128,16 +132,22 @@ body{
 
 .button_section ul li a{
     text-decoration: none;
-    background-color: red;
+    background-color: white;
     padding: 15px;
     font-size: 20px;
     color: #161616;
-    color: white;
     font-weight: 600;
     display: block;
     border-radius: 10px;
    
 }
+
+.button_section ul li a.active{
+    background-color: red;
+    color: white;
+}
+
+
 
 .blog_continer img{
     width: 100%;
