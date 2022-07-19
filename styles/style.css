@@ -1,4 +1,4 @@
-
+/* google font conect link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
@@ -11,3 +11,77 @@ body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.button{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 25px;
+    background-color: red;
+    border-radius: 10px;
+
+}
+
+/* main continers style start */
+
+.main_continers{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* hero section style start */
+
+.hero_section{
+    width: 90%;
+    height: 90vh;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 30px;
+    position: relative;
+}
+
+.left_continer{
+    color: white;
+    width: 50%;
+    margin: 8%
+}
+
+.left_continer h1{
+    font-size: 70px;
+    font-weight: 700;
+
+}
+
+.left_continer p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.left_continer .watch_btn{
+    color: white;
+    
+}
+
+.left_continer a i{
+    margin-left: 10px ;
+}
+
+.right_continer{
+    width: 50%;
+
+}
+
+.right_continer .hero_img{
+    width: 40%;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+}
+
+
+/* hero section style end */
