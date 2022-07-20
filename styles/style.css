@@ -402,6 +402,60 @@ footer .footer_detail_main a i:hover{
 
     /* footer section start */
     /* footer section end */
+}
 
 
+/* all group page style start */
+
+.blog_continer h3{
+    padding: 10px 20px;
+}
+
+.all_group{
+    display: flex;
+    align-items: center;
+}
+
+.all_group img{
+    height: 60px;
+    width: 100px;
+}
+
+/* all group page style end */
+
+/* uncoming match page style start */
+
+
+.uncoming_match{
+    margin: 20px 0;
+
+}
+.play_teem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.play_teem img{
+    height: 80px;
+    width: 100px;
+    padding: 10px;
+}
+
+.uncoming_match{
+    text-align: center;
+}
+
+.uncoming_match h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #161616;
+    padding: 10px;
+}
+
+.uncoming_match p{
+    font-size: 16px;
+    color: #B9B9B9;
 }
