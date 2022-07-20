@@ -11,6 +11,8 @@ body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* ____________________________________________________ */
+
 
 /* main continers style start */
 .main_continers{
@@ -23,7 +25,6 @@ body{
 /* hero section style start */
 .hero_section{
     width: 100%;
-    /* height: 90vh; */
     background-color: #161616;
     display: flex;
     align-items: center;
@@ -37,7 +38,6 @@ body{
     width: 50%;
     height: 80%;
     margin: 6%
-
 }
 
 .left_continer h1{
@@ -48,8 +48,9 @@ body{
 .left_continer p{
     font-size: 16px;
     color: white;
-    margin-bottom: 8%;
+    margin-bottom: 7%;
 }
+
 .button{
     color: #161616;
     text-decoration: none;
@@ -66,7 +67,6 @@ body{
     background-color: #DD0000;
     border-radius: 10px;
     font-weight: bold;
-
 }
 
 .left_continer a i{
@@ -75,7 +75,6 @@ body{
 
 .right_continer{
     width: 50%;
-
 }
 
 .right_continer .hero_img{
@@ -84,12 +83,10 @@ body{
     bottom: 0%;
     right: 3%;
 }
-
 /* hero section style end */
 
 
 /* blog section style :start */
-
 .blog_section{
     margin: 4% 0% 8% 0;
 }
@@ -112,6 +109,7 @@ body{
 .blog_continers .button_section{
     grid-row: 1 / -1;
 }
+
 .button_section ul{
     width: 100%;
     display: flex;
@@ -127,7 +125,6 @@ body{
     display: block;
     width: 80%;
     margin: 20px;
-
 }
 
 .button_section ul li a{
@@ -139,7 +136,6 @@ body{
     font-weight: 600;
     display: block;
     border-radius: 10px;
-   
 }
 
 .button_section ul li a.active{
@@ -186,8 +182,8 @@ body{
     margin-right: 5px;
     color: #161616;
 }
-
 /* blog section style :start */
+
 
 /* <!-- main continers end --> */
 
@@ -215,14 +211,15 @@ footer .footer_detail_main h2{
 
 footer .footer_detail_main ul{
     width: 100%;
-
 }
+
 footer .footer_detail_main ul li{
     list-style: none;
     margin: 10px 0;
     width: 100%;
     display: inline;
 }
+
 .footer_detail_main ul li a{
     text-decoration: none;
     color: #B9B9B9;
@@ -244,13 +241,14 @@ footer .footer_detail_main a i{
     margin: 20px 5px;
     transition: all 0.5s;
 }
+
 footer .footer_detail_main a i:hover{
     color: white;
     font-size: 25px;
     font-weight: bold;
 }
-
 /* footer section style end */
+
 
 /* media queries small divice start */
 @media screen and (max-width: 576px) {
@@ -302,19 +300,16 @@ footer .footer_detail_main a i:hover{
     }
     /* hero section end */
 
+
     /* blog section start */
     .blog_section{
         margin-bottom: 170%;
-
     }
 
     .blog_continers{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         grid-gap: 1%;
-    }
-
-    .button_section{
     }
 
     .button_section ul{
@@ -332,7 +327,6 @@ footer .footer_detail_main a i:hover{
         border: 1px solid #161616;
         border-radius: 10px;
     }
-
     /* blog section end */
     
 
@@ -344,15 +338,14 @@ footer .footer_detail_main a i:hover{
     }
     /* footer section end */
 }
+/* media queries small divice end */
 
-/* media queries small divice start */
 
 
-/* media queries small divice start */
+/* media queries medium divice start */
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
     /* hero section start */
-
     .left_continer h1{
         font-size: 40px;
         font-weight: 600;
@@ -373,6 +366,8 @@ footer .footer_detail_main a i:hover{
         bottom: 0%;
         right: 3%;
     }
+    /* hero section end */
+
 
     /* blog section start */
     .blog_section{
@@ -387,7 +382,6 @@ footer .footer_detail_main a i:hover{
 
     .blog_continers .button_section{
         grid-column: 1 / -1;
-
     }
 
     .button_section ul{
@@ -402,12 +396,12 @@ footer .footer_detail_main a i:hover{
     }
 
     .button_section ul li a{
-
         font-size: 16px;
     }
     /* blog section end */
 
     /* footer section start */
+    /* footer section end */
 
 
 }
