@@ -13,15 +13,14 @@ body{
 }
 
 /* main continers style start */
-
 .main_continers{
     height: 100%;
     width: 90%;
     margin: auto;
 }
 
-/* hero section style start */
 
+/* hero section style start */
 .hero_section{
     width: 100%;
     height: 90vh;
@@ -43,7 +42,6 @@ body{
 .left_continer h1{
     font-size: 70px;
     font-weight: 700;
-
 }
 
 .left_continer p{
@@ -52,7 +50,12 @@ body{
     margin-bottom: 30px;
 }
 
-.left_continer .watch_btn{
+.button{
+    
+}
+
+.left_continer {}
+.button{
     color: #161616;
     text-decoration: none;
     font-size: 20px;
@@ -62,10 +65,11 @@ body{
     transition: all 0.7s;
 }
 
-.left_continer .watch_btn:hover{
+.left_continer {}
+.button:hover{
     color: white;
     padding: 15px 25px;
-    background-image: linear-gradient(90deg, #ff4939,#ffbf48);
+    background-color: #DD0000;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -88,12 +92,11 @@ body{
 
 /* hero section style end */
 
+
 /* blog section style :start */
 
 .blog_section{
     margin: 4% 0;
-
-
 }
 
 .blog_continers{
@@ -143,11 +146,9 @@ body{
 }
 
 .button_section ul li a.active{
-    background-color: red;
+    background-color: #DD0000;
     color: white;
 }
-
-
 
 .blog_continer img{
     width: 100%;
@@ -190,7 +191,9 @@ body{
 }
 
 /* blog section style :start */
+
 /* <!-- main continers end --> */
+
 
 /* footer section style start */
 footer{
@@ -212,7 +215,6 @@ footer .footer_detail_main h2{
     border-bottom: 1px solid rgba(255, 255, 255, 0.623);
     padding: 7% 0 3% 0;
     margin-bottom: 20px;
-
 }
 
 footer .footer_detail_main ul{
@@ -229,10 +231,26 @@ footer .footer_detail_main ul li{
     color: #B9B9B9;
     font-size: 16px;
     text-align: center;
+    transition: all 0.5s;
 }
-footer .footer_detail_main a i{
+.footer_detail_main ul li a:hover{
     color: white;
+    font-weight: bold;
+}
+
+footer .footer_detail_main a i{
+    color: #B9B9B9;
     padding: 10px;
     font-size: 20px;
     margin: 20px 5px;
+    transition: all 0.5s;
 }
+footer .footer_detail_main a i:hover{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* footer section style end */
+
+
