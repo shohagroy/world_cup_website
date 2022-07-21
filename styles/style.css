@@ -182,8 +182,24 @@ body{
     margin-right: 5px;
     color: #161616;
 }
-/* blog section style :start */
 
+.blog_continers .view_btn{
+    
+}
+/* blog section style :end */
+
+.extra_btn .view_btn{
+    text-align: center;
+    margin: 50px;
+}
+
+/* extra button section */
+.extra_btn .view_btn a{
+    background-color: #DD0000;
+    color: white;
+    display: none;
+}
+/* extra button section end */
 
 /* <!-- main continers end --> */
 
@@ -328,6 +344,11 @@ footer .footer_detail_main a i:hover{
         border-radius: 10px;
     }
     /* blog section end */
+
+    /* .extra_btn section */
+    .extra_btn .view_btn a{
+        display: block;
+    }
     
 
     /* footer section start */
@@ -400,6 +421,11 @@ footer .footer_detail_main a i:hover{
     }
     /* blog section end */
 
+    /* .extra_btn section */
+    .extra_btn .view_btn a{
+        display: block;
+    }
+    /* extra button section end */
     /* footer section start */
     /* footer section end */
 }
@@ -408,7 +434,7 @@ footer .footer_detail_main a i:hover{
 /* all group page style start */
 
 .blog_continer h3{
-    padding: 10px 20px;
+    padding: 10px;
 }
 
 .all_group{
@@ -419,9 +445,18 @@ footer .footer_detail_main a i:hover{
 .all_group img{
     height: 60px;
     width: 100px;
+   
+}
+
+.all_group h4{
+    color: #161616;
+    font-size: 16px;
+    margin-left: 10px;
 }
 
 /* all group page style end */
+
+
 
 /* uncoming match page style start */
 
@@ -459,3 +494,5 @@ footer .footer_detail_main a i:hover{
     font-size: 16px;
     color: #B9B9B9;
 }
+
+/* uncoming match page style end */
